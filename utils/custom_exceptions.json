@@ -1,0 +1,16 @@
+{
+    "en": {
+        "email": "Email should not be empty",
+        "invalid_email": "Email is invalid",
+        "first_name_str": "first name should be string",
+        "last_name_str": "first name should be string",
+        "date_format": "date should be in YYYY-MM-DD format",
+        "address_str": "address should be string"
+    },
+    "ar": {
+        "email": "يجب ألا يكون البريد الإلكتروني فارغًا",
+        "organization_id": "مطلوب organization_id",
+        "invalid_email": "Email is invalid عربى",
+        "first_name_str": "first name should be string"
+    }
+}

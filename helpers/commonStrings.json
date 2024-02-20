@@ -1,0 +1,10 @@
+{
+    "ooredoo":{
+        "confirm_purchase_sms": "Thank you for purchasing Urban Point Offer: $[offer_name] at $[brand_name]! Use your offer on the Ooredoo Money App when you visit a/an $[brand_name] outlet to save up to QAR $[saving_amount].",
+        "redeem_offer_sms": "You successfully redeemed Urban Point Offer: $[offer_name] at $[brand_name]! For more offers like this, purchase more vouchers on the Ooredoo Money App or download the Urban Point App!",
+        "expiry_notification_within_7days": "Your Urban Point Offer: $[offer_name] at $[brand_name] will expire in 7 days! Do not forget to redeem your savings before it is too late!",
+        "expiry_notification_within_3days": "3 days left! You would not want to miss out on QAR $[saving_amount] worth of savings at $[brand_name] with their $[offer_name] offer. Redeem it on the Ooredoo Money App now!",
+        "expiry_notification_within_1day": "Last chance to redeem your offer! Your Urban Point Offer: $[offer_name] at $[brand_name] will expire in 24 hours! Go to the Ooredoo Money App now!"
+        
+    }
+}

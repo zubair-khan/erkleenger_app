@@ -1,0 +1,153 @@
+{
+    "localhost": {
+        "name": "erk_db",
+        "user": "root",
+        "pass": "root",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "dialect": "mysql",
+        "showErrors": true,
+        "charset": "utf8mb4",
+        "logging": true,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 30000,
+            "evict": 2000,
+            "acquire": 60000,
+            "handleDisconnects": true
+        },
+        "dialectOptions": {
+            "charset": "utf8mb4"
+        },
+        "omitNull": true,
+        "benchmark": true,
+        "define": {
+            "timestamp": true,
+            "subQuery": false,
+            "underscored": false,
+            "duplicating": false,
+            "underscoredAll": true,
+            "createdAt": "created_at",
+            "updatedAt": "updated_at"
+        }
+    },
+    "internal": {
+        "name": "dbn2dsrcrfkx7r",
+        "user": "u7gcixhgg5vqw",
+        "pass": "jbor5rhb7tvx",
+        "host": "35.214.248.0",
+        "port": 3306,
+        "dialect": "mysql",
+        "showErrors": true,
+        "charset": "utf8mb4",
+        "logging": true,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 30000,
+            "evict": 2000,
+            "acquire": 60000,
+            "handleDisconnects": true
+        },
+        "dialectOptions": {
+            "charset": "utf8mb4"
+        },
+        "omitNull": true,
+        "benchmark": true,
+        "define": {
+            "timestamp": true,
+            "subQuery": false,
+            "underscored": false,
+            "duplicating": false,
+            "underscoredAll": true,
+            "createdAt": "created_at",
+            "updatedAt": "updated_at"
+        }
+    },
+    "staging": {
+        "name": "dbn2dsrcrfkx7r",
+        "user": "u7gcixhgg5vqw",
+        "pass": "jbor5rhb7tvx",
+        "host": "35.214.248.0",
+        "port": 3306,
+        "dialect": "mysql",
+        "showErrors": true,
+        "charset": "utf8mb4",
+        "logging": true,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 30000,
+            "evict": 2000,
+            "acquire": 60000,
+            "handleDisconnects": true
+        },
+        "dialectOptions": {
+            "charset": "utf8mb4"
+        },
+        "omitNull": true,
+        "benchmark": true,
+        "define": {
+            "timestamp": true,
+            "subQuery": false,
+            "underscored": false,
+            "duplicating": false,
+            "underscoredAll": true,
+            "createdAt": "created_at",
+            "updatedAt": "updated_at"
+        }
+    },
+    "production": {
+        "name": "dbn2dsrcrfkx7r",
+        "user": "u7gcixhgg5vqw",
+        "pass": "jbor5rhb7tvx",
+        "host": "35.214.248.0",
+        "port": 3306,
+        "dialect": "mysql",
+        "showErrors": true,
+        "charset": "utf8mb4",
+        "logging": true,
+        "pool": {
+            "min": 0,
+            "max": 10,
+            "idle": 30000,
+            "evict": 2000,
+            "acquire": 60000,
+            "handleDisconnects": true
+        },
+        "dialectOptions": {
+            "charset": "utf8mb4"
+        },
+        "omitNull": true,
+        "benchmark": true,
+        "define": {
+            "timestamp": true,
+            "subQuery": false,
+            "underscored": false,
+            "duplicating": false,
+            "underscoredAll": true,
+            "createdAt": "created_at",
+            "updatedAt": "updated_at"
+        }
+    },
+    "aws": {
+        "aws_access_key_id": "sdsd",
+        "aws_secret_access_key": "+t51PnGP11KEOpoZ",
+        "s3": {
+            "region": "eu-west-1",
+            "useAccelerateEndpoint": true,
+            "staging": {
+                "bucket": "e-butler-eks-staging-bucket"
+            }
+        }
+    },
+    "timweSms": {
+        "SMSPRODUCT_ID": "176",
+        "PRICEPOINT": "0000",
+        "SMSPRICEPOINT": "000",
+        "SMS_LARGEACCOUNT": "000",
+        "SENDSMSURL": "https://qao.timwe.com/external/v2/",
+        "KEY_FOR_SEND_SMS": "00000"
+    }
+}

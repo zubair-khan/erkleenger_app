@@ -1,0 +1,312 @@
+{
+    "code": {
+        "voucher_categories_not_found": {
+            "message": "Voucher categories not found",
+            "code": 600,
+            "data": []
+        },
+        "ooredoo_money_vouchers_not_found": {
+            "message": "Ooredoo money vouchers not found",
+            "code": 601,
+            "data": {}
+        },
+        "ooredoo_money_voucher_not_found": {
+            "message": "Ooredoo money voucher not found",
+            "code": 602,
+            "data": {}
+        },
+        "already_purchased": {
+            "message": "Voucher already purchased this month",
+            "code": 603,
+            "data": {}
+        },
+        "invalid_quantity": {
+            "message": "You are trying purchase more than offer quantity",
+            "code": 604,
+            "data": {}
+        },
+        "outlets_not_found": {
+            "message": "Outlets not found",
+            "code": 605,
+            "data": []
+        },
+        "invalid_outlet_pin": {
+            "message": "Invalid pin",
+            "code": 606,
+            "data": {}
+        },
+        "purchased_voucher_not_found": {
+            "message": "Purchased ooredoo money voucher is not found",
+            "code": 607,
+            "data": {}
+        },
+        "already_redeeemd": {
+            "message": "ooredoo money voucher is already redeemed",
+            "code": 608,
+            "data": {}
+        },
+        "brand_not_same": {
+            "message": "outlet and ooredoo money voucher brand are not same",
+            "code": 609,
+            "data": {}
+        },
+        "transaction_id_already": {
+            "message": "vouchers already present against this transaction_id",
+            "code": 610,
+            "data": {}
+        },
+        "voucher_detail_not_found": {
+            "message": "voucher details not found",
+            "code": 611,
+            "data": {}
+        },
+        "outlet_not_found": {
+            "message": "Outlet not found",
+            "code": 612,
+            "data": {}
+        },
+        "transaction_not_found":{
+            "message": "transaction not found",
+            "code": 614,
+            "data": {}
+        },
+        "price_not_matched":{
+            "message": "price provided doesn't match with the total price",
+            "code": 615,
+            "data": {}
+        },
+        "purchaser_wallet_id": {
+            "message": "purchaser_wallet_id is required",
+            "code": 700,
+            "data": {}
+        },
+        "receiver_wallet_id": {
+            "message": "receiver_wallet_id is required",
+            "code": 701,
+            "data": {}
+        },
+        "category_id": {
+            "message": "category_id should be alteast 1 character long",
+            "code": 702,
+            "data": {}
+        },
+        "ooredoo_money_voucher_id": {
+            "message": "ooredoo_money_voucher_id is required.",
+            "code": 703,
+            "data": {}
+        },
+        "quantity": {
+            "message": "quantity is required.",
+            "code": 704,
+            "data": {}
+        },
+        "type": {
+            "message": "type must be self or gift",
+            "code": 705,
+            "data": {}
+        },
+        "transaction_id": {
+            "message": "transaction_id is required.",
+            "code": 706,
+            "data": {}
+        },
+        "price": {
+            "message": "price is required.",
+            "code": 707,
+            "data": {}
+        },
+        "wallet_id": {
+            "message": "wallet_id is required.",
+            "code": 708,
+            "data": {}
+        },
+        "brand_id": {
+            "message": "brand_id is required.",
+            "code": 709,
+            "data": {}
+        },
+        "ooredoo_money_voucher_order_id": {
+            "message": "ooredoo_money_voucher_order_id is required.",
+            "code": 710,
+            "data": {}
+        },
+        "pin": {
+            "message": "pin is required.",
+            "code": 711,
+            "data": {}
+        },
+        "purchaser_wallet_id_int": {
+            "message": "purchaser_wallet_id should be an integer",
+            "code": 712,
+            "data": {}
+        },
+        "category_id_int": {
+            "message": "category_id should be an integer",
+            "code": 713,
+            "data": {}
+        },
+        "quantity_int": {
+            "message": "quantity should be an integer",
+            "code": 714,
+            "data": {}
+        },
+        "ooredoo_money_voucher_id_int": {
+            "message": "ooredoo_money_voucher_id should be an integer",
+            "code": 715,
+            "data": {}
+        },
+        "price_float": {
+            "message": "price should be a float",
+            "code": 716,
+            "data": {}
+        },
+        "transaction_id_int": {
+            "message": "transaction_id should be a integer",
+            "code": 717,
+            "data": {}
+        },
+        "wallet_id_int": {
+            "message": "wallet_id should be a integer",
+            "code": 718,
+            "data": {}
+        },
+        "brand_id_int":{
+            "message": "brand_id should be a integer",
+            "code": 719,
+            "data": {}
+        },
+        "ooredoo_money_voucher_order_id_int":{
+            "message": "ooredoo_money_voucher_order_id should be a integer",
+            "code": 720,
+            "data": {}
+        },
+        "outlet_id_int":{
+            "message": "outlet_id should be a integer",
+            "code": 721,
+            "data": {}
+        },
+        "receiver_wallet_id_int":{
+            "message": "receiver_wallet_id should be a integer",
+            "code": 722,
+            "data": {}
+        },
+        "outlet_id": {
+            "message": "outlet_id is required.",
+            "code": 723,
+            "data": {}
+        }
+    },
+    "en": {
+        "voucher_categories_not_found": {
+            "message": "Voucher categories not found",
+            "code": 600,
+            "data": []
+        },
+        "ooredoo_money_vouchers_not_found": {
+            "message": "Ooredoo money vouchers not found",
+            "code": 601,
+            "data": {}
+        },
+        "ooredoo_money_voucher_not_found": {
+            "message": "Ooredoo money voucher not found",
+            "code": 602,
+            "data": {}
+        },
+        "already_purchased": {
+            "message": "Voucher already purchased this month",
+            "code": 603,
+            "data": {}
+        },
+        "invalid_quantity": {
+            "message": "You are trying purchase more than offer quantity",
+            "code": 604,
+            "data": {}
+        },
+        "outlets_not_found": {
+            "message": "Outlets not found",
+            "code": 605,
+            "data": []
+        },
+        "invalid_outlet_pin": {
+            "message": "Invalid pin",
+            "code": 606,
+            "data": {}
+        },
+        "purchased_voucher_not_found": {
+            "message": "Purchased ooredoo money voucher is not found",
+            "code": 607,
+            "data": {}
+        },
+        "already_redeeemd": {
+            "message": "ooredoo money voucher is already redeemed",
+            "code": 608,
+            "data": {}
+        },
+        "brand_not_same": {
+            "message": "outlet and ooredoo money voucher brand are not same",
+            "code": 609,
+            "data": {}
+        },
+        "transaction_id_already": {
+            "message": "vouchers already present against this transaction_id",
+            "code": 610,
+            "data": {}
+        },
+        "voucher_detail_not_found": {
+            "message": "voucher details not found",
+            "code": 611,
+            "data": {}
+        },
+        "purchaser_wallet_id": {
+            "message": "purchaser_wallet_id is required",
+            "code": 700,
+            "data": {}
+        },
+        "receiver_wallet_id": {
+            "message": "receiver_wallet_id is required",
+            "code": 701,
+            "data": {}
+        },
+        "category_id": {
+            "message": "category_id is required",
+            "code": 702,
+            "data": {}
+        },
+        "ooredoo_money_voucher_id": {
+            "message": "ooredoo_money_voucher_id is required.",
+            "code": 703,
+            "data": {}
+        },
+        "quantity": {
+            "message": "quantity is required.",
+            "code": 704,
+            "data": {}
+        },
+        "type": {
+            "message": "type is required and it must be self or gift.",
+            "code": 705,
+            "data": {}
+        },
+        "transaction_id": {
+            "message": "transaction_id is required.",
+            "code": 705,
+            "data": {}
+        },
+        "brand_id": {}
+    },
+    "ar": {
+        "voucher_categories_not_found": "Voucher categories not found",
+        "ooredoo_money_vouchers_not_found": "Ooredoo money vouchers not found",
+        "already_purchased": "Vouchers already purchased this month",
+        "invalid_quantity": "You are trying purchase more than offer quantity",
+        "outlets_not_found": "Outlets not found",
+        "invalid_outlet_pin": "Invalid pin",
+        "purchased_voucher_not_found": "Purchased ooredoo money voucher is not found",
+        "already_redeeemd": "ooredoo money voucher is already redeemed",
+        "brand_not_same": "outlet and ooredoo money voucher brand are not same",
+        "transaction_id": "vouchers already present against this transaction_id",
+        "purchase_wallet_id": "purchase_wallet_id is required",
+        "receiver_wallet_id": "receiver_wallet_id is required",
+        "voucher_detail_not_found": "voucher detail not found"
+    }
+}
