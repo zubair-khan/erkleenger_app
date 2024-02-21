@@ -264,8 +264,11 @@ const syncInvoices = async (req, res, next) => {
       return next(response); 
 
     } else {
-      let err = new TypeError('invocies_not_found')
-      return next(err);
+      let response = {
+        msg: "invoices not found."
+      };
+     // let err = new TypeError('invocies_not_found')
+      return next(response);
     }
   } catch (error) {
     return next(error);
