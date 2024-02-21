@@ -217,7 +217,11 @@ const syncInvoices = async (req, res, next) => {
           const match = invoice.subject.match(/Re: (.+?) er godkjent/);
 
           // Extracting the desired substring from the matched result
-          const subject = match ? match[1] : null;
+          let subject = match ? match[1] : null;
+          if(subject == "" || subject == null || !subject){
+            const match2 = invoice.subject.match(/(.+?) er godkjent/);
+            subject = match2 ? match2[1] : null;
+          }
 
                 let body = {
                   "documentVersions": [{

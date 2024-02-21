@@ -1,5 +1,18 @@
 {
     "internal": {
+        "user": "soknad@erkeengler.no",
+        "password": "Vt-Labs-Beta-glued-28",
+        "host" : "imap.domeneshop.no",
+        "port" : 993,
+        "tokenAuth": "N2YyZDlhOWMtNzdiZS00Nzc4LTgwYzEtOWMwOGVhMDQyMzQxOmRiZWVhN2VlLTU1MTUtNDA3NC04NWFhLTZmMGRkNjdlYzM2OQ==",
+        "poBaseURL" : "https://api.poweroffice.net",
+        "authSlug" : "/OAuth/Token",
+        "addDocumentSlug" : "/Documents/ClientDocuments/AddDocument/",
+        "addFolderSlug": "/Documents/ClientDocuments/AddFolder/",
+        "getFolders": "/Documents/ClientDocuments/GetFolders?"
+        
+    },
+    "internal2": {
         "user": "app@erkeengler.no",
         "password": "Vt-Labs-Beta-glued-28",
         "host" : "imap.domeneshop.no",
@@ -13,7 +26,7 @@
         
     },
     "production": {
-        "user": "app@erkeengler.no",
+        "user": "soknad@erkeengler.no",
         "password": "Vt-Labs-Beta-glued-28",
         "host" : "imap.domeneshop.no",
         "port" : 993,
