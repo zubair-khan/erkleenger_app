@@ -59,7 +59,7 @@ const sequelize = require("./sequelize/sequelize");
 
 sequelize.connection.authenticate().then(function () {
     console.log("DB Connection Successful");
-    app.listen(process.env.PORT || 3000, async function (error) {
+    app.listen(process.env.PORT, async function (error) {
         if (error) { console.log("Server is not listening...", error); }
         else {
             console.log("Server is listening on HOST", os.hostname(), "on PORT", process.env.PORT);
