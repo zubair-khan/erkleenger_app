@@ -107,7 +107,6 @@
         "dialect": "mysql",
         "showErrors": true,
         "charset": "utf8mb4",
-        "logging": true,
         "pool": {
             "min": 0,
             "max": 10,
