@@ -57,9 +57,20 @@ imaps.connect(config).then(function (connection) {
               // retrieve the attachments only of the messages with attachments
               return connection.getPartData(message, part)
                   .then(function (partData) {
+                    let fileNameStr = part.disposition.params.filename;
+                    const replaceSpecialChars = (str) => {
+                      // Regular expression to match all characters except alphanumeric, underscore, and dot
+                      const regex = /[^a-zA-Z0-9_.]/g;
+                      return str.replace(regex, '_');
+                    };
+                    
+                    // Example usage
+                    let filename = replaceSpecialChars(fileNameStr);
+
+                    
                       return {
                           subject: subjects,
-                          filename: part.disposition.params.filename,
+                          filename: filename,
                           data: partData.toString('base64')
                       };
                   });
