@@ -66,10 +66,10 @@
         }
     },
     "staging": {
-        "name": "dbn2dsrcrfkx7r",
-        "user": "u7gcixhgg5vqw",
-        "pass": "jbor5rhb7tvx",
-        "host": "35.214.248.0",
+        "name": "sql11685532",
+        "user": "sql11685532",
+        "pass": "VcZhqWzpJF",
+        "host": "sql11.freemysqlhosting.net",
         "port": 3306,
         "dialect": "mysql",
         "showErrors": true,
@@ -107,7 +107,6 @@
         "dialect": "mysql",
         "showErrors": true,
         "charset": "utf8mb4",
-        "logging": true,
         "pool": {
             "min": 0,
             "max": 10,

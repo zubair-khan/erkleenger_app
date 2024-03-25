@@ -228,7 +228,11 @@ const syncInvoices = async (req, res, next) => {
           const match = invoice.subject.match(/Re: (.+?) er godkjent/);
 
           // Extracting the desired substring from the matched result
-          const subject = match ? match[1] : null;
+          let subject = match ? match[1] : null;
+          if(subject == "" || subject == null || !subject){
+            const match2 = invoice.subject.match(/(.+?) er godkjent/);
+            subject = match2 ? match2[1] : null;
+          }
 
                 let body = {
                   "documentVersions": [{
@@ -271,8 +275,11 @@ const syncInvoices = async (req, res, next) => {
       return next(response); 
 
     } else {
-      let err = new TypeError('invocies_not_found')
-      return next(err);
+      let response = {
+        msg: "invoices not found."
+      };
+     // let err = new TypeError('invocies_not_found')
+      return next(response);
     }
   } catch (error) {
     return next(error);
